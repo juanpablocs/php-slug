@@ -14,14 +14,14 @@ la funcion recibe 3 parametros `slug(param1,param2,param3)`
 
 require 'func.slug.php';
 
-$string = "probando texto _ la información tiene 2 partes";
+$string = "probando ñ Ñ _ la información tiene 2 partes";
 
-print slug($string,"-", 25);
-//result >> probando-texto---la-informacion-tiene
+print slug($string,"-", 35);
+//result >> probando-n-n-la-informacion-tiene
 
 print '<hr>';
 
-print slug($string, "_", 25);
-//result >> probando_texto_-_la_informacion_tiene
+print slug($string, "_", 45);
+//result >> probando_n_n_la_informacion_tiene_2_partes
 
 ```
