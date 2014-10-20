@@ -21,7 +21,7 @@ print slug($string,"-", 35);
 
 print '<hr>';
 
-print slug($string);
+print slug($string,"_");
 //result >> probando_n_n_la_informacion_tiene_2_partes
 
 ```
