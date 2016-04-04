@@ -1,5 +1,5 @@
 ##php-slug
-snippet para formatear tu texto de manera optima, esta funcion remplaza caracteres con tildes, enies y otros caracteres que no sean letras o numeros remplazandolo por un caracter que elijas en el 2 parametro de la funcion (por defecto guion) ademas te permite cortar un limite de caracteres cortando entre el espacio de cada palabra en la ultima posicion de la palabra para ser mas exacto, esto evita que corte palabras a medias 
+snippet para formatear tu texto de manera óptima, esta función remplaza caracteres con tíldes, eñes y otros caracteres que no sean letras o numeros, remplazandolo por un caracter elegido en el 2 parametro de la funcion (por defecto guion). Además te permite cortar un limite de caracteres, cortando entre el espacio de cada palabra en la última posición de la palabra para ser mas exacto, esto evita que corte palabras a medias 
 por ejemplo `esto es una cadena larga` un acortador normal `esto-es-una-caden..` con **php-slug** `esto-es-una-cadena`
 
 ###modo de uso
