@@ -9,7 +9,7 @@ la funcion recibe 3 parametros `slug(param1,param2,param3)`
 - param3: (int) limite de caracteres
 
 ###ejemplo
-```
+```php
 <?php
 
 require 'func.slug.php';
